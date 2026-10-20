@@ -2183,9 +2183,9 @@
 	(footprint "IMRC_footprint:FUSE_SOCKET"
 		(layer "F.Cu")
 		(uuid "77233839-d77d-4a6b-8bfc-eba787a85a56")
-		(at 49.7 50.425 -90)
+		(at 49.3 43.575)
 		(property "Reference" "F2"
-			(at 0 -0.75 270)
+			(at 0 -0.75 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6646fa44-bcec-4b28-9469-e45a079ec4ed")
@@ -2198,7 +2198,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 0 1 270)
+			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "3dc2011e-7b6b-4f6c-8849-a0738bc4fa1f")
@@ -2210,7 +2210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2223,7 +2223,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2259,7 +2259,7 @@
 			(uuid "60f56a81-1a2e-4ce8-a4f6-10aadaa8b4ea")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 270)
+			(at 0 2.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "cc780166-d45d-4578-af2c-76b1b2f77e3e")
@@ -2271,7 +2271,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at -6.8 2.05 180)
+			(at -6.8 2.05 270)
 			(size 4 4)
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
@@ -2281,7 +2281,7 @@
 			(uuid "47d52b3c-9b6e-40e5-81d8-16a38e75b105")
 		)
 		(pad "1" thru_hole circle
-			(at -6.8 5.05 180)
+			(at -6.8 5.05 270)
 			(size 4 4)
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
@@ -2291,7 +2291,7 @@
 			(uuid "b1d24adb-e161-43f5-838f-9b9057ddcce9")
 		)
 		(pad "2" thru_hole circle
-			(at 7.2 2.05 180)
+			(at 7.2 2.05 270)
 			(size 4 4)
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
@@ -2301,7 +2301,7 @@
 			(uuid "885092fd-dff4-4bfc-8e7d-6ce325b44a43")
 		)
 		(pad "2" thru_hole circle
-			(at 7.2 5.05 180)
+			(at 7.2 5.05 270)
 			(size 4 4)
 			(drill 2)
 			(layers "*.Cu" "*.Mask")
@@ -2947,7 +2947,7 @@
 	(footprint "Package_TO_SOT_SMD:TO-263-2"
 		(layer "F.Cu")
 		(uuid "a90df95a-045a-424e-8689-a5d4d2dc76f5")
-		(at 70.425 18.775)
+		(at 70.425 43.46)
 		(descr "TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
 		(tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
 		(property "Reference" "D1"
@@ -3267,7 +3267,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
 		(layer "F.Cu")
 		(uuid "d56c3a64-c2bc-4fc6-a113-102c6168d5fb")
-		(at 78.52222 35)
+		(at 84.02222 34)
 		(descr "CP, Radial series, Radial, pin pitch=7.50mm, diameter=18mm, height=35mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 7.50mm diameter 18mm height 35mm Electrolytic Capacitor")
 		(property "Reference" "C1"
