@@ -1359,10 +1359,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -8.89 -2.54 0)
+				(pin power_out line
+					(at 8.89 0 180)
 					(length 2.54)
-					(name "A2"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1377,10 +1377,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 8.89 0 180)
+				(pin power_in line
+					(at -8.89 -2.54 0)
 					(length 2.54)
-					(name "C"
+					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
