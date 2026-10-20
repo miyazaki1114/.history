@@ -1684,12 +1684,6 @@
 		(uuid "da6d075c-caff-4d9c-87da-ad21064a1b86")
 	)
 	(junction
-		(at 193.04 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e06f4a0e-9bdb-48e9-8d32-0c11888b0a1f")
-	)
-	(junction
 		(at 167.64 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1768,16 +1762,6 @@
 			(type default)
 		)
 		(uuid "0b9bc432-ef8b-4911-b77f-d99f6d0e506d")
-	)
-	(wire
-		(pts
-			(xy 198.12 124.46) (xy 198.12 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fb68096-7b27-4735-8c1a-95b7a1b66d74")
 	)
 	(wire
 		(pts
@@ -1878,16 +1862,6 @@
 			(type default)
 		)
 		(uuid "6120c106-fdb8-43df-bd75-e022d452f980")
-	)
-	(wire
-		(pts
-			(xy 198.12 124.46) (xy 193.04 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6272d64f-eb53-432c-bb26-5b2fa90d16cb")
 	)
 	(wire
 		(pts
@@ -2108,85 +2082,6 @@
 			(type default)
 		)
 		(uuid "f5094d1a-7b78-4661-92a8-de7f2bf909f2")
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 198.12 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13771ffc-a382-48ca-b9f8-072105d18e7f")
-		(property "Reference" "TP4"
-			(at 200.66 116.0779 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IN1_TestPoint"
-			(at 200.66 118.6179 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 203.2 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 198.12 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c059f8a7-a434-4a10-8c35-30ae9d442d42")
-		)
-		(instances
-			(project "radundant_circuit"
-				(path "/2a60c1bb-a3bb-41a5-8345-be72c93980cb"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
