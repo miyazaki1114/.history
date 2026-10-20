@@ -910,23 +910,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 39.37) (xy 100.33 39.37)
+			(xy 99.06 39.37) (xy 114.3 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "00d153c7-2fd3-4723-9ccd-bdfbd525a183")
-	)
-	(wire
-		(pts
-			(xy 111.76 41.91) (xy 114.3 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00e86afd-8062-49df-be96-23ffc8c3d7cb")
 	)
 	(wire
 		(pts
@@ -1050,16 +1040,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 39.37) (xy 114.3 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9906dc09-a295-4c68-9e74-4ffd5445460a")
-	)
-	(wire
-		(pts
 			(xy 173.99 78.74) (xy 184.15 78.74)
 		)
 		(stroke
@@ -1067,26 +1047,6 @@
 			(type default)
 		)
 		(uuid "998e5d1c-c32b-4a17-af0e-58bf82669c66")
-	)
-	(wire
-		(pts
-			(xy 111.76 39.37) (xy 114.3 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3a97abe-cb61-45ba-821e-24774ee08afa")
-	)
-	(wire
-		(pts
-			(xy 114.3 41.91) (xy 114.3 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba9e560a-6c8c-4b08-9f82-fc6a1c1c3dc2")
 	)
 	(wire
 		(pts
@@ -1100,91 +1060,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 39.37) (xy 100.33 35.56)
+			(xy 114.3 39.37) (xy 114.3 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eae7ffff-0c3d-423d-8473-79a412e8cc08")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 114.3 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e043f15-3d84-4a1c-ae6b-c5471713c3b0")
-		(property "Reference" "#PWR02"
-			(at 114.3 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 114.3 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5901b3d9-53ca-4e33-be89-a26d12a790c0")
-		)
-		(instances
-			(project "radundant_circuit"
-				(path "/2a60c1bb-a3bb-41a5-8345-be72c93980cb"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+24V")
@@ -1341,86 +1223,6 @@
 			(project "radundant_circuit"
 				(path "/2a60c1bb-a3bb-41a5-8345-be72c93980cb"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 106.68 41.91 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61d61ad4-2fe3-4c2a-80ca-00ce80bcd45f")
-		(property "Reference" "J2"
-			(at 107.315 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IN2"
-			(at 107.315 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
-			(at 106.68 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 106.68 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4449d5e-5086-4cc0-926d-39b8f8e2516d")
-		)
-		(pin "2"
-			(uuid "fb48f08e-d6e7-4bfc-9bb8-39b0717f7238")
-		)
-		(instances
-			(project "radundant_circuit"
-				(path "/2a60c1bb-a3bb-41a5-8345-be72c93980cb"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1589,7 +1391,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 100.33 35.56 0)
+		(at 114.3 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1600,7 +1402,7 @@
 		(fields_autoplaced yes)
 		(uuid "9666b2ea-2637-40e2-ab52-00ee8e49c258")
 		(property "Reference" "#PWR_04"
-			(at 100.33 39.37 0)
+			(at 114.3 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1611,7 +1413,7 @@
 			)
 		)
 		(property "Value" "IN1"
-			(at 100.33 30.48 0)
+			(at 114.3 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1621,7 +1423,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 35.56 0)
+			(at 114.3 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1632,7 +1434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 35.56 0)
+			(at 114.3 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1643,7 +1445,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 100.33 35.56 0)
+			(at 114.3 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1902,84 +1704,6 @@
 			(project "radundant_circuit"
 				(path "/2a60c1bb-a3bb-41a5-8345-be72c93980cb"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 114.3 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2b15dc7-db11-4973-85bd-1b86eca61155")
-		(property "Reference" "#PWR_05"
-			(at 114.3 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IN2"
-			(at 114.3 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 114.3 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d004f179-6c44-4ed3-9f71-8b9f7c440e08")
-		)
-		(instances
-			(project "radundant_circuit"
-				(path "/2a60c1bb-a3bb-41a5-8345-be72c93980cb"
-					(reference "#PWR_05")
 					(unit 1)
 				)
 			)
