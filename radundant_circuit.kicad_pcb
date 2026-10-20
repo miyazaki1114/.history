@@ -7030,6 +7030,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "IN2"
+		(at 90.4 60 0)
+		(layer "F.SilkS" knockout)
+		(uuid "540c24bf-4d81-49d3-b8ab-f1a7f2d02369")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
 	(via
 		(at 85.6 56)
 		(size 0.6)
