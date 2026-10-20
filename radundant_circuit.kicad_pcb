@@ -7007,13 +7007,25 @@
 		(uuid "3e16cde4-08de-4108-8245-02b376e145b6")
 	)
 	(gr_text "IN1"
-		(at 61.2 27.8 0)
+		(at 62 29.2 0)
 		(layer "F.SilkS" knockout)
 		(uuid "fef114a4-9272-488a-8815-b459766f30ab")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.1)
+				(size 2 2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "IN1"
+		(at 62 60.2 0)
+		(layer "F.SilkS" knockout)
+		(uuid "50f8cdd1-7f6d-4016-b233-604faa075af2")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
 			)
 			(justify left bottom)
 		)
