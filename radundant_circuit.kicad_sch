@@ -528,6 +528,84 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
+		(at 109.22 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74a8e640-2c7e-42a6-b1a2-4b13e5458eed")
+		(property "Reference" "#PWR_02"
+			(at 109.22 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN1"
+			(at 109.22 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 109.22 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87af104a-49e0-46c7-987a-655e4beea7e1")
+		)
+		(instances
+			(project "radundant_circuit"
+				(path "/2a60c1bb-a3bb-41a5-8345-be72c93980cb"
+					(reference "#PWR_02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
 		(at 114.3 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -538,7 +616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbe224a0-cab4-44ef-a504-7d76a7a8ceca")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR_01"
 			(at 114.3 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -549,7 +627,7 @@
 				)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "IN1"
 			(at 114.3 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -598,7 +676,7 @@
 		(instances
 			(project "radundant_circuit"
 				(path "/2a60c1bb-a3bb-41a5-8345-be72c93980cb"
-					(reference "#PWR01")
+					(reference "#PWR_01")
 					(unit 1)
 				)
 			)
