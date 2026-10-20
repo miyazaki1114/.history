@@ -1654,7 +1654,7 @@
 		)
 	)
 	(junction
-		(at 181.61 90.17)
+		(at 187.96 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "633c0db2-6d81-42db-809b-f99d77534b5a")
@@ -1672,25 +1672,19 @@
 		(uuid "6fbcac87-a30a-460f-8f11-988b47f01918")
 	)
 	(junction
-		(at 171.45 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1078fc7-230b-4998-a434-8c3be1c8e87a")
-	)
-	(junction
-		(at 171.45 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfef92a5-4abd-49aa-ae8c-6c65048d2c11")
-	)
-	(junction
 		(at 124.46 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da6d075c-caff-4d9c-87da-ad21064a1b86")
 	)
 	(junction
-		(at 181.61 82.55)
+		(at 171.45 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e92e10e8-c5cb-404c-88f3-26d85f1caf1b")
+	)
+	(junction
+		(at 187.96 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea1898a9-26d9-4c55-86c3-2994525ae84f")
@@ -1706,6 +1700,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f21ea473-d7e0-49f2-bb46-0eac0d891609")
+	)
+	(junction
+		(at 171.45 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5271afb-2672-4588-9219-60b0547b7bf4")
 	)
 	(wire
 		(pts
@@ -1749,7 +1749,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 82.55) (xy 181.61 82.55)
+			(xy 199.39 82.55) (xy 187.96 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1929,7 +1929,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 82.55) (xy 181.61 82.55)
+			(xy 171.45 82.55) (xy 187.96 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1969,7 +1969,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 90.17) (xy 181.61 90.17)
+			(xy 171.45 90.17) (xy 187.96 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2009,7 +2009,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 90.17) (xy 193.04 90.17)
+			(xy 187.96 90.17) (xy 199.39 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2175,7 +2175,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 181.61 86.36 0)
+		(at 187.96 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2186,7 +2186,7 @@
 		(fields_autoplaced yes)
 		(uuid "548fbeb1-69d6-4247-9a7c-649760af2f39")
 		(property "Reference" "C2"
-			(at 185.42 85.0899 0)
+			(at 191.77 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2197,7 +2197,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 185.42 87.6299 0)
+			(at 191.77 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2208,7 +2208,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.5752 90.17 0)
+			(at 188.9252 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2219,7 +2219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 86.36 0)
+			(at 187.96 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2230,7 +2230,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 181.61 86.36 0)
+			(at 187.96 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3071,7 +3071,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4700uF"
 			(at 175.26 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3132,7 +3132,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 193.04 86.36 0)
+		(at 199.39 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3143,7 +3143,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad5aa57f-5bed-453b-818e-7defb843f353")
 		(property "Reference" "C3"
-			(at 196.85 85.0899 0)
+			(at 203.2 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3154,7 +3154,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 196.85 87.6299 0)
+			(at 203.2 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3165,7 +3165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.0052 90.17 0)
+			(at 200.3552 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3176,7 +3176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 86.36 0)
+			(at 199.39 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3187,7 +3187,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 193.04 86.36 0)
+			(at 199.39 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
