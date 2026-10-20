@@ -7756,6 +7756,27 @@
 		)
 	)
 	(zone
+		(net "Net-(J2-Pin_2)")
+		(layers "F.Cu" "B.Cu")
+		(uuid "39a20a5f-7f8d-40c2-ac7a-de47c33a5782")
+		(hatch edge 0.5)
+		(priority 3)
+		(connect_pads yes
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 39.6 43.8) (xy 52.6 43.6) (xy 52.6 51.8) (xy 55 51.8) (xy 55 60.2) (xy 39.4 60.2)
+			)
+		)
+	)
+	(zone
 		(net "IN1")
 		(layers "F.Cu" "B.Cu")
 		(uuid "4d79e347-3543-4788-8537-8af3c41f9d75")
