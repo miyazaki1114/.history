@@ -3273,7 +3273,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=7.50mm, diameter=18mm, height=35mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 7.50mm diameter 18mm height 35mm Electrolytic Capacitor")
 		(property "Reference" "C1"
-			(at 3.75 -6.1 0)
+			(at 0.27778 -4.9 0)
 			(layer "F.SilkS")
 			(uuid "25c509d6-ed39-4247-b0a1-43029bcf9f5f")
 			(effects
