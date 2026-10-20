@@ -6996,13 +6996,13 @@
 		)
 	)
 	(gr_rect
-		(start 63 26.6)
-		(end 67.4 28.2)
+		(start 61.8 26.6)
+		(end 68.4 28.4)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type dash_dot_dot)
 		)
-		(fill no)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "8a6755f0-525d-4fc4-a42f-2cd050cfa877")
 	)
