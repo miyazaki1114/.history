@@ -2953,7 +2953,7 @@
 		(descr "TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
 		(tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
 		(property "Reference" "D1"
-			(at 0 -6.65 0)
+			(at 7.25 -0.06 90)
 			(layer "F.SilkS")
 			(uuid "47d24387-7921-4fcb-aeed-57efeca1d24c")
 			(effects
@@ -7005,17 +7005,6 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "3e16cde4-08de-4108-8245-02b376e145b6")
-	)
-	(gr_text "D1"
-		(at 76.15 36.81 0)
-		(layer "F.SilkS")
-		(uuid "1b19dce3-18cd-4425-a9a1-7064f2b4c2f1")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(via
 		(at 85.6 56)
