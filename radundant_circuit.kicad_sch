@@ -628,6 +628,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 39.37) (xy 107.95 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d153c7-2fd3-4723-9ccd-bdfbd525a183")
+	)
+	(wire
+		(pts
 			(xy 115.57 66.04) (xy 115.57 69.85)
 		)
 		(stroke
@@ -685,6 +695,16 @@
 			(type default)
 		)
 		(uuid "78611527-1318-4a4d-9618-f5525e851090")
+	)
+	(wire
+		(pts
+			(xy 107.95 39.37) (xy 107.95 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae7ffff-0c3d-423d-8473-79a412e8cc08")
 	)
 	(symbol
 		(lib_id "IMRC_symbol:RBQ30NS65ATL")
@@ -849,6 +869,84 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
+		(at 107.95 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9666b2ea-2637-40e2-ab52-00ee8e49c258")
+		(property "Reference" "#PWR_04"
+			(at 107.95 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN1"
+			(at 107.95 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 107.95 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92a1f54f-37af-4d4b-958b-8e82a95c9fca")
+		)
+		(instances
+			(project "radundant_circuit"
+				(path "/2a60c1bb-a3bb-41a5-8345-be72c93980cb"
+					(reference "#PWR_04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
 		(at 140.97 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -1005,7 +1103,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 93.98 41.91 0)
+		(at 93.98 41.91 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1016,25 +1114,23 @@
 		(fields_autoplaced yes)
 		(uuid "f858ccab-4209-48f7-8576-ea4445acc499")
 		(property "Reference" "J1"
-			(at 95.25 41.9099 0)
+			(at 94.615 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 95.25 44.4499 0)
+			(at 94.615 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
