@@ -6996,6 +6996,17 @@
 		)
 	)
 	(gr_rect
+		(start 63 26.6)
+		(end 67.4 28.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8a6755f0-525d-4fc4-a42f-2cd050cfa877")
+	)
+	(gr_rect
 		(start 39.1775 26.5)
 		(end 96.1775 60.5)
 		(stroke
