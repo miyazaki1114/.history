@@ -10325,6 +10325,27 @@
 	)
 	(zone
 		(layer "B.Mask")
+		(uuid "e5059310-0e1f-4a5f-9caa-c450bf434ae7")
+		(hatch edge 0.5)
+		(priority 5)
+		(connect_pads yes
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 88 56.8) (xy 80.2 56.8) (xy 80 54.2) (xy 74.2 50.4) (xy 66.6 50.4) (xy 66.6 34.6) (xy 77.6 34.4)
+				(xy 80.2 48) (xy 88 47.8)
+			)
+		)
+	)
+	(zone
+		(layer "B.Mask")
 		(uuid "ed059ba6-1aff-4459-bc89-8ada128d2f37")
 		(hatch edge 0.5)
 		(priority 5)
