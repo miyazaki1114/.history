@@ -90,7 +90,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "05030dc2-725d-4cd7-8ff1-a36dcfc64653")
-		(at 65.12 85.775)
+		(at 117.495 39.65)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D5"
@@ -985,7 +985,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "41093d96-5295-4fff-9517-822eec235eba")
-		(at 57.175 77.515)
+		(at 87.6375 74.5)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C3"
@@ -1671,7 +1671,7 @@
 	(footprint "Diode_SMD:D_SMB"
 		(layer "F.Cu")
 		(uuid "762843b1-7f74-455f-b72a-1e95d3aae2b8")
-		(at 67.12 76.525)
+		(at 116.5 76)
 		(descr "Diode SMB (DO-214AA)")
 		(tags "Diode SMB (DO-214AA)")
 		(property "Reference" "D4"
@@ -1686,7 +1686,7 @@
 			)
 		)
 		(property "Value" "SMBJ26A"
-			(at 0 3.1 0)
+			(at 52.375 -43.025 0)
 			(layer "F.Fab")
 			(uuid "8a5b2db4-ae41-4540-b3c6-c039a3fddc7f")
 			(effects
@@ -2241,7 +2241,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8cfa59f0-52a3-454c-8453-4c54f70dec95")
-		(at 57.175 75.005)
+		(at 87.6375 71.99)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
@@ -2399,7 +2399,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "99124976-1a75-445b-976f-8b5493d20436")
-		(at 57.175 85.045)
+		(at 118.875 43.375)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
@@ -3144,7 +3144,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "b7c21ee5-6f94-47ee-bc2f-b6924ddcb18b")
-		(at 61.125 82.625)
+		(at 113.5 36.5)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP3"
