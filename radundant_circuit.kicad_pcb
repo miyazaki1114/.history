@@ -90,13 +90,13 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "05030dc2-725d-4cd7-8ff1-a36dcfc64653")
-		(at 77.0225 57.3 180)
+		(at 77.0225 56.3 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D5"
-			(at -0.1125 -0.98 0)
+			(at 0 -1.7 0)
 			(layer "F.SilkS")
-			(uuid "aa08ad41-8c63-4599-8b92-3a828157cdd3")
+			(uuid "2e904e31-8def-4abf-b7e0-b9db0682c2aa")
 			(effects
 				(font
 					(size 1 1)
@@ -107,7 +107,7 @@
 		(property "Value" "D"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "d3738ba6-13c4-443d-b800-d2295e458075")
+			(uuid "3a64ce80-2ad4-41cd-9f7c-80c46c501ea5")
 			(effects
 				(font
 					(size 1 1)
@@ -119,7 +119,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2ae38f92-dabd-4d0c-ac09-45cb86d1e724")
+			(uuid "44f2d2bd-4d44-4af2-807c-ccd446c0756b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,7 +130,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0a09bd60-edaf-4219-a63d-f453d95f4c89")
+			(uuid "7c1266b6-0583-41ca-96eb-5d107e8ac897")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2631,13 +2631,13 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "99124976-1a75-445b-976f-8b5493d20436")
-		(at 77.1125 54.68 180)
+		(at 77 54.4 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
 			(at 0 1.4 0)
 			(layer "F.SilkS")
-			(uuid "03c655fc-2e0a-4f36-8991-9517e4454c08")
+			(uuid "d04a7739-90ab-4dbd-a9fb-4cd4ab0ab700")
 			(effects
 				(font
 					(size 1 1)
@@ -2648,7 +2648,7 @@
 		(property "Value" "R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "9a6f6bad-4bea-4655-bf71-dbf8d6f08287")
+			(uuid "242426d3-b7db-4194-8470-28b1930a0dfe")
 			(effects
 				(font
 					(size 1 1)
@@ -2660,7 +2660,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c1e394b3-fddb-49dd-8f58-910352317e6e")
+			(uuid "8ee64406-6e38-47df-99f2-feffa082d7ac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2671,7 +2671,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1d837521-8ed9-428b-bace-d6ae3efe98b9")
+			(uuid "eaf18e36-f076-4c6d-a16c-7a86dc08bbd1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7787,16 +7787,16 @@
 		(uuid "81eb4683-ec5f-4753-b67c-2f148c701a2f")
 	)
 	(segment
-		(start 76.2 54.68)
-		(end 76.2 56.52)
+		(start 76.0875 54.4)
+		(end 76.0875 56.24)
 		(width 1)
 		(layer "F.Cu")
 		(net "Net-(D5-A)")
 		(uuid "ef01b2af-f9ba-4554-a858-bdd59b49fc83")
 	)
 	(segment
-		(start 76.2 56.52)
-		(end 76.26 56.58)
+		(start 76.0875 56.24)
+		(end 76.1475 56.3)
 		(width 1)
 		(layer "F.Cu")
 		(net "Net-(D5-A)")
