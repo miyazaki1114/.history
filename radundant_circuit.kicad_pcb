@@ -463,7 +463,7 @@
 		(property "Reference" "H4"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
-			(uuid "e834950f-c3ba-492f-b603-180fe4042372")
+			(uuid "85943bfc-8db1-4859-9a8a-406b159242bd")
 			(effects
 				(font
 					(size 1 1)
@@ -474,7 +474,7 @@
 		(property "Value" "MountingHole"
 			(at 0 4.15 0)
 			(layer "F.Fab")
-			(uuid "4931cd41-da7c-4b94-af76-a33ca1ededec")
+			(uuid "2592c1ca-d1f3-4c8a-9734-a20bf4ab5b40")
 			(effects
 				(font
 					(size 1 1)
@@ -486,7 +486,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "331cc819-20ed-4e2f-9f42-27607f5cd2a1")
+			(uuid "45930f48-202d-430a-8cf1-08c49e565a79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -497,7 +497,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "56514932-b285-49ad-adfb-b9787e6e7aa2")
+			(uuid "37d249d3-e91e-4d18-a0a7-231b0342c3f5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -866,7 +866,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3e752d7c-42f6-45a5-8cbe-0953041df330")
-		(at 64.5475 30.5 180)
+		(at 65.5475 30.5 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D2"
@@ -1381,7 +1381,7 @@
 		(property "Reference" "D3"
 			(at -0.125 1.5 0)
 			(layer "F.SilkS")
-			(uuid "d07178ce-a9c4-4911-9151-b3f5ab9c3586")
+			(uuid "1c82570e-730b-4dba-a9cb-114cf77dc168")
 			(effects
 				(font
 					(size 1 1)
@@ -1392,7 +1392,7 @@
 		(property "Value" "D"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "9c6b0be7-bb16-45cb-a7ce-b4c68e442c8f")
+			(uuid "2104b85c-bec1-482c-b51d-6ca775877744")
 			(effects
 				(font
 					(size 1 1)
@@ -1404,7 +1404,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4902dff5-b7ad-4a6d-a622-76895fc75371")
+			(uuid "0078e87c-12c8-4ffc-990e-8865f0bdce31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1415,7 +1415,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "48e45fc8-4fcb-4a02-b361-7127376cc900")
+			(uuid "f900e37c-fe9c-4e4b-911d-ce3bb0811fc0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2321,7 +2321,7 @@
 		(property "Reference" "R2"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
-			(uuid "55ff312b-c309-4a00-a653-f0dd96ea14cd")
+			(uuid "998dcb13-9e36-4a98-b428-9ec05bec9552")
 			(effects
 				(font
 					(size 1 1)
@@ -2332,7 +2332,7 @@
 		(property "Value" "R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "4ba66a61-fc5b-41dc-99dd-d3517b6353dc")
+			(uuid "7341e385-98f5-4f09-987e-e6c4373e15db")
 			(effects
 				(font
 					(size 1 1)
@@ -2344,7 +2344,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "338c6f9a-f2b7-49cc-bf3c-51213beb3109")
+			(uuid "3ced676f-40c5-4cc3-b39a-ea924eb182d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2355,7 +2355,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "26f3edc5-c217-42eb-b497-d0321258379a")
+			(uuid "0e50d778-6ca4-4b6d-9e26-6575d6c572ed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +2789,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a6642ba6-2617-4694-819a-0af769efd758")
-		(at 64.51 32 180)
+		(at 65.51 32 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
