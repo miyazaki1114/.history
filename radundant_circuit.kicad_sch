@@ -2989,7 +2989,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5KPxxA"
+		(property "Value" "SMBJ26A"
 			(at 218.44 86.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3000,7 +3000,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_P600_R-6_P20.00mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 220.98 85.09 0)
 			(hide yes)
 			(show_name no)
