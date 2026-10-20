@@ -2289,7 +2289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 113.792 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -2685,7 +2685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 209.55 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -2762,7 +2762,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "IMRC_footprint:FUSE_SOCKET"
 			(at 105.41 50.038 90)
 			(hide yes)
 			(show_name no)
@@ -3246,7 +3246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 134.62 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3403,7 +3403,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 115.57 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3668,7 +3668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 133.35 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -3903,7 +3903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 113.792 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -4141,7 +4141,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 115.57 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4323,7 +4323,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "IMRC_footprint:FUSE_SOCKET"
 			(at 105.41 93.218 90)
 			(hide yes)
 			(show_name no)
