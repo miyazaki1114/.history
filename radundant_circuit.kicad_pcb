@@ -2721,7 +2721,7 @@
 		(property "Reference" "D1"
 			(at 0 -6.65 0)
 			(layer "F.SilkS")
-			(uuid "66bb4556-68a5-4945-ad3c-930b5671a648")
+			(uuid "1720ed67-5fc9-4102-9d11-45cb1ff2371d")
 			(effects
 				(font
 					(size 1 1)
@@ -2732,7 +2732,7 @@
 		(property "Value" "RBQ30NS65ATL"
 			(at 0 6.65 0)
 			(layer "F.Fab")
-			(uuid "90d10c9d-a375-49cc-9287-66415fd79d96")
+			(uuid "c75b87e4-87ae-4452-8bea-755426eb7a48")
 			(effects
 				(font
 					(size 1 1)
@@ -2744,7 +2744,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c5a3cea5-b69d-43ec-81ef-d0c287d12ca1")
+			(uuid "1689f7f8-3240-42e4-8158-56772c89252d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2755,7 +2755,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d941b24-defc-489a-bbcc-6797c8b998be")
+			(uuid "60e0ccfc-2aaa-4bb1-9d55-a5c1a92ca61d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6455,7 +6455,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "e8ddeff7-3156-4307-9d99-4075423db1c6")
-		(at 80 65)
+		(at 78 53)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP2"
