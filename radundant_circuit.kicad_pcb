@@ -90,7 +90,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "05030dc2-725d-4cd7-8ff1-a36dcfc64653")
-		(at 77.0225 56.5)
+		(at 77.0225 57.3)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D5"
@@ -2631,7 +2631,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "99124976-1a75-445b-976f-8b5493d20436")
-		(at 77 55)
+		(at 77 55.8)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
@@ -7002,6 +7002,22 @@
 		(layer "Edge.Cuts")
 		(uuid "3e16cde4-08de-4108-8245-02b376e145b6")
 	)
+	(segment
+		(start 64.6875 36.1125)
+		(end 64.6 36.2)
+		(width 1)
+		(layer "F.Cu")
+		(net "IN1")
+		(uuid "386af968-ca63-4d3d-99b3-b73a36b61d45")
+	)
+	(segment
+		(start 64.6875 33.6)
+		(end 64.6875 36.1125)
+		(width 1)
+		(layer "F.Cu")
+		(net "IN1")
+		(uuid "db3bad93-f8a4-4661-af70-a2aab8225a2c")
+	)
 	(via
 		(at 64.6 38.6)
 		(size 0.6)
@@ -7362,6 +7378,22 @@
 		(net "IN1")
 		(uuid "fde18975-483d-412d-acfb-1297c14cc75b")
 	)
+	(segment
+		(start 64.6875 53.4)
+		(end 64.6875 50.4875)
+		(width 1)
+		(layer "F.Cu")
+		(net "IN2")
+		(uuid "9a24e14a-e5cc-4077-95b8-b66656d7e94e")
+	)
+	(segment
+		(start 64.6875 50.4875)
+		(end 64.6 50.4)
+		(width 1)
+		(layer "F.Cu")
+		(net "IN2")
+		(uuid "aae1a3d2-2d78-4a4a-ba92-d644393ada1d")
+	)
 	(via
 		(at 63 48)
 		(size 0.6)
@@ -7721,6 +7753,38 @@
 		(free yes)
 		(net "IN2")
 		(uuid "fda3a22d-2d25-41cb-be94-222e5f87b667")
+	)
+	(segment
+		(start 66.4975 31.8)
+		(end 66.4975 33.585)
+		(width 1)
+		(layer "F.Cu")
+		(net "Net-(D2-A)")
+		(uuid "43842549-e5b6-4428-8848-c8bd3ed3d949")
+	)
+	(segment
+		(start 66.4975 33.585)
+		(end 66.5125 33.6)
+		(width 1)
+		(layer "F.Cu")
+		(net "Net-(D2-A)")
+		(uuid "6203c432-2e93-4a82-a71d-cc75a4b1430a")
+	)
+	(segment
+		(start 66.5125 53.4)
+		(end 66.5125 54.9625)
+		(width 1)
+		(layer "F.Cu")
+		(net "Net-(D3-A)")
+		(uuid "702f146e-18c2-4681-8d37-7e222a839d65")
+	)
+	(segment
+		(start 66.5125 54.9625)
+		(end 66.475 55)
+		(width 1)
+		(layer "F.Cu")
+		(net "Net-(D3-A)")
+		(uuid "81eb4683-ec5f-4753-b67c-2f148c701a2f")
 	)
 	(zone
 		(net "Net-(J1-Pin_2)")
