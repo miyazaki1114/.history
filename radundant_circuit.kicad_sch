@@ -1172,12 +1172,6 @@
 		)
 	)
 	(junction
-		(at 132.08 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20256f98-54ec-4791-b521-79c7cae52baa")
-	)
-	(junction
 		(at 177.8 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1196,16 +1190,16 @@
 		(uuid "c1078fc7-230b-4998-a434-8c3be1c8e87a")
 	)
 	(junction
-		(at 132.08 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cdde00da-702f-4e81-9eb9-c7c73b2a683f")
-	)
-	(junction
 		(at 167.64 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfef92a5-4abd-49aa-ae8c-6c65048d2c11")
+	)
+	(junction
+		(at 132.08 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da6d075c-caff-4d9c-87da-ad21064a1b86")
 	)
 	(junction
 		(at 177.8 64.77)
@@ -1213,9 +1207,15 @@
 		(color 0 0 0 0)
 		(uuid "ea1898a9-26d9-4c55-86c3-2994525ae84f")
 	)
+	(junction
+		(at 132.08 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f21ea473-d7e0-49f2-bb46-0eac0d891609")
+	)
 	(wire
 		(pts
-			(xy 116.84 72.39) (xy 132.08 72.39)
+			(xy 109.22 72.39) (xy 132.08 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1225,7 +1225,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 48.26) (xy 132.08 48.26)
+			(xy 109.22 48.26) (xy 132.08 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1315,7 +1315,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 50.8) (xy 106.68 50.8)
+			(xy 100.33 50.8) (xy 99.06 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1345,7 +1345,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 72.39) (xy 106.68 72.39)
+			(xy 101.6 72.39) (xy 99.06 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1355,7 +1355,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 50.8) (xy 107.95 53.34)
+			(xy 100.33 50.8) (xy 100.33 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1405,7 +1405,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 74.93) (xy 107.95 77.47)
+			(xy 100.33 74.93) (xy 100.33 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1435,7 +1435,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 48.26) (xy 106.68 48.26)
+			(xy 101.6 48.26) (xy 99.06 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1465,7 +1465,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 74.93) (xy 106.68 74.93)
+			(xy 100.33 74.93) (xy 99.06 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1738,7 +1738,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 101.6 74.93 180)
+		(at 93.98 74.93 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1749,7 +1749,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ed930d0-9890-4cb9-be4d-35c67777fdfc")
 		(property "Reference" "J2"
-			(at 102.235 67.31 0)
+			(at 94.615 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1759,7 +1759,7 @@
 			)
 		)
 		(property "Value" "IN2"
-			(at 102.235 69.85 0)
+			(at 94.615 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1769,7 +1769,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
-			(at 101.6 74.93 0)
+			(at 93.98 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1780,7 +1780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 74.93 0)
+			(at 93.98 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1791,7 +1791,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 101.6 74.93 0)
+			(at 93.98 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2053,7 +2053,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 113.03 48.26 90)
+		(at 105.41 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2064,7 +2064,7 @@
 		(fields_autoplaced yes)
 		(uuid "81bb450c-98ac-4a63-87ab-e103bef85366")
 		(property "Reference" "F1"
-			(at 113.03 41.91 90)
+			(at 105.41 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2074,7 +2074,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 113.03 44.45 90)
+			(at 105.41 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2084,7 +2084,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 50.038 90)
+			(at 105.41 50.038 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2095,7 +2095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 48.26 0)
+			(at 105.41 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2106,7 +2106,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 113.03 48.26 0)
+			(at 105.41 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2767,7 +2767,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 53.34 0)
+		(at 100.33 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2778,7 +2778,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1d7c17a-8b3b-49b4-aa43-4684fbd3f322")
 		(property "Reference" "#PWR01"
-			(at 107.95 59.69 0)
+			(at 100.33 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2789,7 +2789,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 58.42 0)
+			(at 100.33 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2799,7 +2799,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 53.34 0)
+			(at 100.33 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2810,7 +2810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 53.34 0)
+			(at 100.33 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2821,7 +2821,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 53.34 0)
+			(at 100.33 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2845,7 +2845,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 77.47 0)
+		(at 100.33 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2856,7 +2856,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1272c9e-8cb9-4bfd-8b6a-04467f769e50")
 		(property "Reference" "#PWR02"
-			(at 107.95 83.82 0)
+			(at 100.33 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2867,7 +2867,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 82.55 0)
+			(at 100.33 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2877,7 +2877,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 77.47 0)
+			(at 100.33 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2888,7 +2888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 77.47 0)
+			(at 100.33 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2899,7 +2899,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 77.47 0)
+			(at 100.33 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2923,7 +2923,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 101.6 50.8 180)
+		(at 93.98 50.8 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2934,7 +2934,7 @@
 		(fields_autoplaced yes)
 		(uuid "f858ccab-4209-48f7-8576-ea4445acc499")
 		(property "Reference" "J1"
-			(at 102.235 43.18 0)
+			(at 94.615 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2944,7 +2944,7 @@
 			)
 		)
 		(property "Value" "IN1"
-			(at 102.235 45.72 0)
+			(at 94.615 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2954,7 +2954,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
-			(at 101.6 50.8 0)
+			(at 93.98 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2965,7 +2965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 50.8 0)
+			(at 93.98 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2976,7 +2976,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 101.6 50.8 0)
+			(at 93.98 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3003,7 +3003,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 113.03 72.39 90)
+		(at 105.41 72.39 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3014,7 +3014,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc67c1cc-008d-4a1d-89d2-82e9bd7701e0")
 		(property "Reference" "F2"
-			(at 113.03 66.04 90)
+			(at 105.41 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3024,7 +3024,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 113.03 68.58 90)
+			(at 105.41 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3034,7 +3034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 74.168 90)
+			(at 105.41 74.168 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3045,7 +3045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 72.39 0)
+			(at 105.41 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3056,7 +3056,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 113.03 72.39 0)
+			(at 105.41 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
