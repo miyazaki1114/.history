@@ -325,7 +325,7 @@
 	(footprint "IMRC_footprint:FUSE_SOCKET"
 		(layer "F.Cu")
 		(uuid "08db1c9d-574a-45a3-bdde-9a8f14ebfb9e")
-		(at 66.3 27.275)
+		(at 66.3 27.775)
 		(property "Reference" "F1"
 			(at 0 -0.75 0)
 			(unlocked yes)
