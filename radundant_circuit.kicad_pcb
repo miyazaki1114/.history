@@ -2947,7 +2947,7 @@
 	(footprint "Package_TO_SOT_SMD:TO-263-2"
 		(layer "F.Cu")
 		(uuid "a90df95a-045a-424e-8689-a5d4d2dc76f5")
-		(at 70.375 43)
+		(at 70.15 43.46)
 		(descr "TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
 		(tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
 		(property "Reference" "D1"
