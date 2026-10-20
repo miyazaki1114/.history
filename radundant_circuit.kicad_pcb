@@ -2715,7 +2715,7 @@
 	(footprint "Package_TO_SOT_SMD:TO-263-2"
 		(layer "F.Cu")
 		(uuid "a90df95a-045a-424e-8689-a5d4d2dc76f5")
-		(at 83.275 85.425)
+		(at 89.925 43.725)
 		(descr "TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
 		(tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
 		(property "Reference" "D1"
@@ -3035,7 +3035,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "aef9da89-3cff-4b83-90d5-0f4288f7bc1c")
-		(at 61.125 75.525)
+		(at 78.5 35)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
@@ -3253,7 +3253,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
 		(layer "F.Cu")
 		(uuid "d56c3a64-c2bc-4fc6-a113-102c6168d5fb")
-		(at 79.11944 69.475)
+		(at 94.52222 64)
 		(descr "CP, Radial series, Radial, pin pitch=7.50mm, diameter=18mm, height=35mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 7.50mm diameter 18mm height 35mm Electrolytic Capacitor")
 		(property "Reference" "C1"
@@ -6455,7 +6455,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "e8ddeff7-3156-4307-9d99-4075423db1c6")
-		(at 61.125 79.075)
+		(at 80 65)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP2"
@@ -6564,7 +6564,7 @@
 	(footprint "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
 		(layer "F.Cu")
 		(uuid "f68ec431-6578-4221-bbcc-efd2e15185b9")
-		(at 60.175 68.625)
+		(at 109.9 46.5)
 		(descr "AMASS female XT60, through hole, vertical, https://www.tme.eu/Document/2d152ced3b7a446066e6c419d84bb460/XT60%20SPEC.pdf")
 		(tags "XT60 female vertical")
 		(property "Reference" "J3"
