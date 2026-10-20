@@ -6992,17 +6992,6 @@
 		)
 	)
 	(gr_rect
-		(start 53 35.8)
-		(end 65.8 50.8)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "50f811a4-d392-403e-b3c5-f7ad045a99c9")
-	)
-	(gr_rect
 		(start 39.1775 26.5)
 		(end 96.1775 60.5)
 		(stroke
