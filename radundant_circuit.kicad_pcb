@@ -573,7 +573,7 @@
 	(footprint "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
 		(layer "F.Cu")
 		(uuid "1319b0d2-04b4-4c41-84ca-10d995fbd489")
-		(at 63.1 55.5 180)
+		(at 62.6 55.5 180)
 		(descr "AMASS female XT60, through hole, vertical, https://www.tme.eu/Document/2d152ced3b7a446066e6c419d84bb460/XT60%20SPEC.pdf")
 		(tags "XT60 female vertical")
 		(property "Reference" "J2"
