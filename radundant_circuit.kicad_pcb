@@ -1909,7 +1909,7 @@
 		(descr "Diode SMB (DO-214AA)")
 		(tags "Diode SMB (DO-214AA)")
 		(property "Reference" "D4"
-			(at 0 -3 90)
+			(at -4.4 -0.2 0)
 			(layer "F.SilkS")
 			(uuid "9facec83-cad5-452b-924f-b3108e5d55ed")
 			(effects
@@ -6709,7 +6709,7 @@
 		(descr "AMASS female XT60, through hole, vertical, https://www.tme.eu/Document/2d152ced3b7a446066e6c419d84bb460/XT60%20SPEC.pdf")
 		(tags "XT60 female vertical")
 		(property "Reference" "J3"
-			(at 0.6 -6.3 0)
+			(at 4.4 -5 0)
 			(layer "F.SilkS")
 			(uuid "287444ea-dc23-43d4-af10-ff879f580ca4")
 			(effects
