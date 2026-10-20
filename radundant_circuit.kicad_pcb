@@ -7007,7 +7007,7 @@
 		(uuid "3e16cde4-08de-4108-8245-02b376e145b6")
 	)
 	(gr_text "IN1"
-		(at 62 29.2 0)
+		(at 62.4 29.2 0)
 		(layer "F.SilkS" knockout)
 		(uuid "fef114a4-9272-488a-8815-b459766f30ab")
 		(effects
@@ -7019,7 +7019,7 @@
 		)
 	)
 	(gr_text "IN2"
-		(at 62 60.2 0)
+		(at 62.4 60.2 0)
 		(layer "F.SilkS" knockout)
 		(uuid "50f8cdd1-7f6d-4016-b233-604faa075af2")
 		(effects
