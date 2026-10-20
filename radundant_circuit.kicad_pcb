@@ -1903,7 +1903,7 @@
 	(footprint "Diode_SMD:D_SMB"
 		(layer "F.Cu")
 		(uuid "762843b1-7f74-455f-b72a-1e95d3aae2b8")
-		(at 77.6 55 90)
+		(at 77.4 54.4 -90)
 		(descr "Diode SMB (DO-214AA)")
 		(tags "Diode SMB (DO-214AA)")
 		(property "Reference" "D4"
@@ -1929,7 +1929,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/5kp65.pdf"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1942,7 +1942,7 @@
 			)
 		)
 		(property "Description" "5000W unidirectional Transient Voltage Suppressor, P-600"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1967,14 +1967,14 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -3.66 -2.15)
-			(end 2.15 -2.15)
+			(start -3.66 2.15)
+			(end 2.15 2.15)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5b5ba54c-d5c8-41d7-baab-700ae8c85c78")
+			(uuid "b6d5b28d-bd24-4140-bad1-d2a311193503")
 		)
 		(fp_line
 			(start -3.66 -2.15)
@@ -1987,44 +1987,14 @@
 			(uuid "1c30e617-f130-4af7-a058-32772e3a4cef")
 		)
 		(fp_line
-			(start -3.66 2.15)
-			(end 2.15 2.15)
+			(start -3.66 -2.15)
+			(end 2.15 -2.15)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b6d5b28d-bd24-4140-bad1-d2a311193503")
-		)
-		(fp_line
-			(start 3.65 -2.25)
-			(end 3.65 2.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0107bd89-de70-4c32-a465-6b9dff4f028a")
-		)
-		(fp_line
-			(start -3.65 -2.25)
-			(end 3.65 -2.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "5378c691-94b1-41ec-ab31-35570aa4e955")
-		)
-		(fp_line
-			(start 3.65 2.25)
-			(end -3.65 2.25)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "531b46a2-e3de-43f4-94bf-f1c627b1ba5d")
+			(uuid "5b5ba54c-d5c8-41d7-baab-700ae8c85c78")
 		)
 		(fp_line
 			(start -3.65 2.25)
@@ -2037,54 +2007,74 @@
 			(uuid "614109a3-448a-4cc2-9292-5c94412be1f1")
 		)
 		(fp_line
-			(start 2.3 -2)
+			(start 3.65 2.25)
+			(end -3.65 2.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "531b46a2-e3de-43f4-94bf-f1c627b1ba5d")
+		)
+		(fp_line
+			(start -3.65 -2.25)
+			(end 3.65 -2.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5378c691-94b1-41ec-ab31-35570aa4e955")
+		)
+		(fp_line
+			(start 3.65 -2.25)
+			(end 3.65 2.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0107bd89-de70-4c32-a465-6b9dff4f028a")
+		)
+		(fp_line
+			(start -2.3 2)
 			(end -2.3 -2)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "aca853e6-2952-4fac-8669-a0a5c8397451")
+			(uuid "ed1ae2c7-f71f-410f-80d8-e14346a95bae")
 		)
 		(fp_line
-			(start 2.3 -2)
-			(end 2.3 2)
+			(start 2.3 2)
+			(end -2.3 2)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bf7b0992-b8dd-40ff-ab92-6317b43916ca")
+			(uuid "bb54f641-7d92-49cf-a1a1-08cc9510748a")
 		)
 		(fp_line
-			(start -0.64944 -0.79908)
-			(end -0.64944 0.80112)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "eb847ea2-a813-4b61-8ff2-f295bb60f983")
-		)
-		(fp_line
-			(start 0.50118 0.00102)
-			(end 1.4994 0.00102)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a014592f-6d7d-42ae-8613-1c381d6dee20")
-		)
-		(fp_line
-			(start -0.64944 0.00102)
+			(start 0.50118 0.75032)
 			(end 0.50118 -0.79908)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "90f0a7f9-1900-4f88-8aa2-e25af19c3a8f")
+			(uuid "28a37901-b3e8-44d0-8e6f-2817e6e49098")
+		)
+		(fp_line
+			(start -0.64944 0.00102)
+			(end 0.50118 0.75032)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a76723fd-59f7-4e9f-a1f7-f80d74c6852e")
 		)
 		(fp_line
 			(start -0.64944 0.00102)
@@ -2098,43 +2088,53 @@
 		)
 		(fp_line
 			(start -0.64944 0.00102)
-			(end 0.50118 0.75032)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a76723fd-59f7-4e9f-a1f7-f80d74c6852e")
-		)
-		(fp_line
-			(start 0.50118 0.75032)
 			(end 0.50118 -0.79908)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "28a37901-b3e8-44d0-8e6f-2817e6e49098")
+			(uuid "90f0a7f9-1900-4f88-8aa2-e25af19c3a8f")
 		)
 		(fp_line
-			(start 2.3 2)
-			(end -2.3 2)
+			(start 0.50118 0.00102)
+			(end 1.4994 0.00102)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bb54f641-7d92-49cf-a1a1-08cc9510748a")
+			(uuid "a014592f-6d7d-42ae-8613-1c381d6dee20")
 		)
 		(fp_line
-			(start -2.3 2)
+			(start -0.64944 -0.79908)
+			(end -0.64944 0.80112)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eb847ea2-a813-4b61-8ff2-f295bb60f983")
+		)
+		(fp_line
+			(start 2.3 -2)
+			(end 2.3 2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bf7b0992-b8dd-40ff-ab92-6317b43916ca")
+		)
+		(fp_line
+			(start 2.3 -2)
 			(end -2.3 -2)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ed1ae2c7-f71f-410f-80d8-e14346a95bae")
+			(uuid "aca853e6-2952-4fac-8669-a0a5c8397451")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -3 90)
@@ -2148,7 +2148,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -2.15 0 90)
+			(at -2.15 0 270)
 			(size 2.5 2.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1086956522)
@@ -2158,7 +2158,7 @@
 			(uuid "b0f0c015-7dc3-44f6-b5af-c8018843be4d")
 		)
 		(pad "2" smd roundrect
-			(at 2.15 0 90)
+			(at 2.15 0 270)
 			(size 2.5 2.3)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1086956522)
@@ -6701,7 +6701,7 @@
 	(footprint "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
 		(layer "F.Cu")
 		(uuid "f68ec431-6578-4221-bbcc-efd2e15185b9")
-		(at 91.8 53 180)
+		(at 91.6 52.4 180)
 		(descr "AMASS female XT60, through hole, vertical, https://www.tme.eu/Document/2d152ced3b7a446066e6c419d84bb460/XT60%20SPEC.pdf")
 		(tags "XT60 female vertical")
 		(property "Reference" "J3"
