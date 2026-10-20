@@ -7030,8 +7030,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "IN2"
-		(at 90.4 60 0)
+	(gr_text "OUT"
+		(at 89.8 60 0)
 		(layer "F.SilkS" knockout)
 		(uuid "540c24bf-4d81-49d3-b8ab-f1a7f2d02369")
 		(effects
