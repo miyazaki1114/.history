@@ -6996,17 +6996,6 @@
 		)
 	)
 	(gr_rect
-		(start 61.8 26.6)
-		(end 68.4 28.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "8a6755f0-525d-4fc4-a42f-2cd050cfa877")
-	)
-	(gr_rect
 		(start 39.1775 26.5)
 		(end 96.1775 60.5)
 		(stroke
@@ -7016,6 +7005,18 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "3e16cde4-08de-4108-8245-02b376e145b6")
+	)
+	(gr_text "a"
+		(at 66.4 23.2 0)
+		(layer "F.SilkS" knockout)
+		(uuid "fef114a4-9272-488a-8815-b459766f30ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(via
 		(at 85.6 56)
