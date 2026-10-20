@@ -7309,7 +7309,7 @@
 		(uuid "5a8fc1a9-e05b-411a-af2a-a953e4a6cf11")
 	)
 	(via
-		(at 77.8 49.8)
+		(at 74.8 51)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -7471,7 +7471,7 @@
 		(uuid "a6c1d469-4741-4b35-9dbe-5fc321595bbb")
 	)
 	(via
-		(at 76.8 49.8)
+		(at 74.8 52)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -7525,7 +7525,7 @@
 		(uuid "b455ee74-6ed7-4ae6-9e4d-83a9e9d1e913")
 	)
 	(via
-		(at 75.8 49.8)
+		(at 74.8 53)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
