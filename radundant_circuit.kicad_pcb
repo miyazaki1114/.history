@@ -90,7 +90,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "05030dc2-725d-4cd7-8ff1-a36dcfc64653")
-		(at 82.7125 59.2 180)
+		(at 87.6 57.8 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D5"
@@ -2631,7 +2631,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "99124976-1a75-445b-976f-8b5493d20436")
-		(at 82.9125 57.6 180)
+		(at 84.2 57.8)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
@@ -2703,16 +2703,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.254724 0.5225)
-			(end 0.254724 0.5225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d067ad08-fe61-44fa-9251-5bbe246a52b5")
-		)
-		(fp_line
 			(start -0.254724 -0.5225)
 			(end 0.254724 -0.5225)
 			(stroke
@@ -2721,6 +2711,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "b30aa395-1195-496d-9d7a-71d3030472b8")
+		)
+		(fp_line
+			(start -0.254724 0.5225)
+			(end 0.254724 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d067ad08-fe61-44fa-9251-5bbe246a52b5")
 		)
 		(fp_rect
 			(start -1.65 -0.73)
@@ -2756,7 +2756,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9125 0 180)
+			(at -0.9125 0)
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -2765,7 +2765,7 @@
 			(uuid "e80dd89f-e489-4860-932a-48eb49d581e3")
 		)
 		(pad "2" smd roundrect
-			(at 0.9125 0 180)
+			(at 0.9125 0)
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -7785,14 +7785,6 @@
 		(layer "F.Cu")
 		(net "Net-(D3-A)")
 		(uuid "81eb4683-ec5f-4753-b67c-2f148c701a2f")
-	)
-	(segment
-		(start 81.7775 59.44)
-		(end 81.8375 59.5)
-		(width 1)
-		(layer "F.Cu")
-		(net "Net-(D5-A)")
-		(uuid "9e0e29c5-7098-426e-af05-5c77c9fd5ead")
 	)
 	(zone
 		(net "Net-(J1-Pin_2)")
