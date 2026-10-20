@@ -1951,7 +1951,7 @@
 	(footprint "IMRC_footprint:FUSE_SOCKET"
 		(layer "F.Cu")
 		(uuid "77233839-d77d-4a6b-8bfc-eba787a85a56")
-		(at 65.8 54.075)
+		(at 65.3 52.075)
 		(property "Reference" "F2"
 			(at 0 -0.75 0)
 			(unlocked yes)
@@ -2715,7 +2715,7 @@
 	(footprint "Package_TO_SOT_SMD:TO-263-2"
 		(layer "F.Cu")
 		(uuid "a90df95a-045a-424e-8689-a5d4d2dc76f5")
-		(at 67.65 44.04)
+		(at 72.65 44.04)
 		(descr "TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
 		(tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
 		(property "Reference" "D1"
@@ -3035,7 +3035,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "aef9da89-3cff-4b83-90d5-0f4288f7bc1c")
-		(at 78.5 35)
+		(at 78.5 35.5)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
@@ -6455,7 +6455,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "e8ddeff7-3156-4307-9d99-4075423db1c6")
-		(at 78 53)
+		(at 77.5 54)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP2"
