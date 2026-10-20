@@ -90,7 +90,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "05030dc2-725d-4cd7-8ff1-a36dcfc64653")
-		(at 77.0225 55.3 180)
+		(at 77.0225 55 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D5"
@@ -7792,7 +7792,7 @@
 		(width 1)
 		(layer "F.Cu")
 		(net "Net-(D5-A)")
-		(uuid "ef01b2af-f9ba-4554-a858-bdd59b49fc83")
+		(uuid "29c59d5d-3d98-4505-910e-15f029ec2913")
 	)
 	(segment
 		(start 76.0875 55.24)
@@ -7800,7 +7800,7 @@
 		(width 1)
 		(layer "F.Cu")
 		(net "Net-(D5-A)")
-		(uuid "f6355c6b-599b-4c5d-b8a5-69499305ef8e")
+		(uuid "9e0e29c5-7098-426e-af05-5c77c9fd5ead")
 	)
 	(zone
 		(net "Net-(J1-Pin_2)")
