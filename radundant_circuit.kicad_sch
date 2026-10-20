@@ -1545,7 +1545,7 @@
 				)
 			)
 		)
-		(property "Value" "IN1"
+		(property "Value" "IN2"
 			(at 94.615 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
