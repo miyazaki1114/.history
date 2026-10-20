@@ -763,7 +763,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 66.04) (xy 115.57 69.85)
+			(xy 172.72 40.64) (xy 172.72 44.45)
 		)
 		(stroke
 			(width 0)
@@ -773,7 +773,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 74.93) (xy 110.49 66.04)
+			(xy 167.64 49.53) (xy 167.64 40.64)
 		)
 		(stroke
 			(width 0)
@@ -783,7 +783,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 74.93) (xy 110.49 74.93)
+			(xy 176.53 49.53) (xy 167.64 49.53)
 		)
 		(stroke
 			(width 0)
@@ -793,7 +793,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 72.39) (xy 137.16 72.39)
+			(xy 198.12 46.99) (xy 194.31 46.99)
 		)
 		(stroke
 			(width 0)
@@ -823,7 +823,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 69.85) (xy 140.97 72.39)
+			(xy 198.12 44.45) (xy 198.12 46.99)
 		)
 		(stroke
 			(width 0)
@@ -833,7 +833,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 69.85) (xy 119.38 69.85)
+			(xy 172.72 44.45) (xy 176.53 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1041,7 +1041,7 @@
 	)
 	(symbol
 		(lib_id "IMRC_symbol:RBQ30NS65ATL")
-		(at 128.27 72.39 0)
+		(at 185.42 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1052,7 +1052,7 @@
 		(fields_autoplaced yes)
 		(uuid "67f24f8f-2b44-46c8-ad60-5402ca15327d")
 		(property "Reference" "D1"
-			(at 128.27 64.77 0)
+			(at 185.42 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1062,7 +1062,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 111.76 78.74 0)
+			(at 168.91 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1072,7 +1072,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 111.76 78.74 0)
+			(at 168.91 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1083,7 +1083,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 78.74 0)
+			(at 168.91 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1094,7 +1094,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 78.74 0)
+			(at 168.91 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1124,7 +1124,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 110.49 66.04 0)
+		(at 167.64 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1135,7 +1135,7 @@
 		(fields_autoplaced yes)
 		(uuid "74a8e640-2c7e-42a6-b1a2-4b13e5458eed")
 		(property "Reference" "#PWR_02"
-			(at 110.49 69.85 0)
+			(at 167.64 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1146,7 +1146,7 @@
 			)
 		)
 		(property "Value" "IN2"
-			(at 110.49 60.96 0)
+			(at 167.64 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1156,7 +1156,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 66.04 0)
+			(at 167.64 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1167,7 +1167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 66.04 0)
+			(at 167.64 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1178,7 +1178,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 110.49 66.04 0)
+			(at 167.64 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1280,7 +1280,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 140.97 69.85 0)
+		(at 198.12 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1291,7 +1291,7 @@
 		(fields_autoplaced yes)
 		(uuid "98330341-aa97-49bb-a4a0-2b4aaba35738")
 		(property "Reference" "#PWR_03"
-			(at 140.97 73.66 0)
+			(at 198.12 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1302,7 +1302,7 @@
 			)
 		)
 		(property "Value" "OUT"
-			(at 140.97 64.77 0)
+			(at 198.12 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1312,7 +1312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 69.85 0)
+			(at 198.12 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1323,7 +1323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 69.85 0)
+			(at 198.12 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1334,7 +1334,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 140.97 69.85 0)
+			(at 198.12 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1436,7 +1436,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 115.57 66.04 0)
+		(at 172.72 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1447,7 +1447,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbe224a0-cab4-44ef-a504-7d76a7a8ceca")
 		(property "Reference" "#PWR_01"
-			(at 115.57 69.85 0)
+			(at 172.72 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1458,7 +1458,7 @@
 			)
 		)
 		(property "Value" "IN1"
-			(at 115.57 60.96 0)
+			(at 172.72 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1468,7 +1468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 66.04 0)
+			(at 172.72 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1479,7 +1479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 66.04 0)
+			(at 172.72 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1490,7 +1490,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 115.57 66.04 0)
+			(at 172.72 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
