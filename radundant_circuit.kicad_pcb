@@ -7018,7 +7018,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "IN1"
+	(gr_text "IN2"
 		(at 62 60.2 0)
 		(layer "F.SilkS" knockout)
 		(uuid "50f8cdd1-7f6d-4016-b233-604faa075af2")
