@@ -3657,7 +3657,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IN2_TestPoint"
+		(property "Value" "IN1_TestPoint"
 			(at 130.81 42.4179 0)
 			(show_name no)
 			(do_not_autoplace no)
