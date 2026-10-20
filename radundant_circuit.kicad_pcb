@@ -3267,13 +3267,13 @@
 	(footprint "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
 		(layer "F.Cu")
 		(uuid "d56c3a64-c2bc-4fc6-a113-102c6168d5fb")
-		(at 83.2 39)
+		(at 82.52222 36.5)
 		(descr "CP, Radial series, Radial, pin pitch=7.50mm, diameter=18mm, height=35mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 7.50mm diameter 18mm height 35mm Electrolytic Capacitor")
 		(property "Reference" "C1"
 			(at 3.75 -10.25 0)
 			(layer "F.SilkS")
-			(uuid "63ad8404-6713-481f-a620-988448839a07")
+			(uuid "ee92b6eb-4fb9-4325-b94e-10cf7cd9d901")
 			(effects
 				(font
 					(size 1 1)
@@ -3284,7 +3284,7 @@
 		(property "Value" "4700uF"
 			(at 3.75 10.25 0)
 			(layer "F.Fab")
-			(uuid "76b35b0c-185d-4360-8adf-97aaeca10384")
+			(uuid "0d7266cb-9444-45c2-96d8-99ad115deda8")
 			(effects
 				(font
 					(size 1 1)
@@ -3296,7 +3296,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "64480e08-a4f7-4921-aef6-b773b8cd52b6")
+			(uuid "c637ed35-6e42-4348-833b-807cdaf78826")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,7 +3307,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "593555df-1c33-4a8c-a244-9646249d4328")
+			(uuid "5595ef01-6461-470d-ad33-3fc9314625ee")
 			(effects
 				(font
 					(size 1.27 1.27)
