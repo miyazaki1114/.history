@@ -3267,7 +3267,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "aef9da89-3cff-4b83-90d5-0f4288f7bc1c")
-		(at 73.5 31.5)
+		(at 68 37)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
@@ -6687,7 +6687,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "e8ddeff7-3156-4307-9d99-4075423db1c6")
-		(at 77.5 54)
+		(at 68.5 52.5)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP2"
