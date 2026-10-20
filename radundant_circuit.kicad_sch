@@ -1801,12 +1801,6 @@
 		(uuid "ed5cc8fe-ccc2-4ff3-bb42-1a4aa6a3f759")
 	)
 	(junction
-		(at 123.19 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f21ea473-d7e0-49f2-bb46-0eac0d891609")
-	)
-	(junction
 		(at 167.64 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1911,16 +1905,6 @@
 			(type default)
 		)
 		(uuid "3e5f87b3-6fea-4ab9-aec7-464654f1b634")
-	)
-	(wire
-		(pts
-			(xy 128.27 48.26) (xy 123.19 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d4897df-9719-480a-b730-aec140b93ede")
 	)
 	(wire
 		(pts
@@ -2074,16 +2058,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 48.26) (xy 128.27 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ef8441b-b5ea-48c9-9e25-0d8be3c4f66b")
-	)
-	(wire
-		(pts
 			(xy 101.6 48.26) (xy 99.06 48.26)
 		)
 		(stroke
@@ -2101,16 +2075,6 @@
 			(type default)
 		)
 		(uuid "998e5d1c-c32b-4a17-af0e-58bf82669c66")
-	)
-	(wire
-		(pts
-			(xy 129.54 91.44) (xy 129.54 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a218aaf4-c190-4c08-85cc-ce2172f84c5f")
 	)
 	(wire
 		(pts
@@ -4104,85 +4068,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 129.54 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4f4b3f2-e629-48cb-a59a-eae19f691fcc")
-		(property "Reference" "TP2"
-			(at 132.08 83.0579 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IN2_TestPoint"
-			(at 132.08 85.5979 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 134.62 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 129.54 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "89ae9b18-c924-4ce6-abea-4470c714efc9")
-		)
-		(instances
-			(project "radundant_circuit"
-				(path "/2a60c1bb-a3bb-41a5-8345-be72c93980cb"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 172.72 40.64 0)
 		(unit 1)
@@ -4520,85 +4405,6 @@
 			(project "radundant_circuit"
 				(path "/2a60c1bb-a3bb-41a5-8345-be72c93980cb"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 128.27 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d97b111f-ffe4-4326-8667-49273ee76727")
-		(property "Reference" "TP1"
-			(at 130.81 39.8779 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IN1_TestPoint"
-			(at 130.81 42.4179 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 133.35 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 128.27 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "38afaa6f-a9d1-4f05-8ad6-e3a190b3f253")
-		)
-		(instances
-			(project "radundant_circuit"
-				(path "/2a60c1bb-a3bb-41a5-8345-be72c93980cb"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
