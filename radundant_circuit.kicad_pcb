@@ -7006,8 +7006,8 @@
 		(layer "Edge.Cuts")
 		(uuid "3e16cde4-08de-4108-8245-02b376e145b6")
 	)
-	(gr_text "radundant_circuit"
-		(at 74.2 60.2 0)
+	(gr_text "radundant_circuit V1.0"
+		(at 73.6 65.6 0)
 		(layer "F.SilkS" knockout)
 		(uuid "7e1db07e-7683-4fd1-99ce-20556d965241")
 		(effects
