@@ -463,6 +463,7 @@
 		(property "Reference" "H4"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "85943bfc-8db1-4859-9a8a-406b159242bd")
 			(effects
 				(font
