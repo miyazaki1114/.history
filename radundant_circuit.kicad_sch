@@ -897,16 +897,10 @@
 		)
 	)
 	(junction
-		(at 195.58 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29271c19-e5fa-419c-a7d0-a7c63d6eebf2")
-	)
-	(junction
 		(at 184.15 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a3baf9e0-3c1f-48f6-8fe6-a8570c7bee02")
+		(uuid "633c0db2-6d81-42db-809b-f99d77534b5a")
 	)
 	(junction
 		(at 184.15 71.12)
@@ -1076,16 +1070,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 78.74) (xy 195.58 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b95ab867-c587-443b-8a12-9422622c4ce2")
-	)
-	(wire
-		(pts
 			(xy 114.3 41.91) (xy 114.3 44.45)
 		)
 		(stroke
@@ -1096,6 +1080,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 78.74) (xy 195.58 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de010dc6-a900-4516-83e2-95bc2ce1ce8f")
+	)
+	(wire
+		(pts
 			(xy 100.33 39.37) (xy 100.33 35.56)
 		)
 		(stroke
@@ -1103,16 +1097,6 @@
 			(type default)
 		)
 		(uuid "eae7ffff-0c3d-423d-8473-79a412e8cc08")
-	)
-	(wire
-		(pts
-			(xy 195.58 78.74) (xy 196.85 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f446cd3e-defe-41c6-8db5-edfd3f766835")
 	)
 	(symbol
 		(lib_id "power:GND")
