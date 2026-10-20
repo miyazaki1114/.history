@@ -327,7 +327,7 @@
 		(uuid "08db1c9d-574a-45a3-bdde-9a8f14ebfb9e")
 		(at 49.3 36.075)
 		(property "Reference" "F1"
-			(at 0 -0.75 0)
+			(at -3.3 3.525 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "37d02df8-778a-403f-b709-5e369807bad8")
@@ -578,7 +578,7 @@
 		(descr "AMASS female XT60, through hole, vertical, https://www.tme.eu/Document/2d152ced3b7a446066e6c419d84bb460/XT60%20SPEC.pdf")
 		(tags "XT60 female vertical")
 		(property "Reference" "J2"
-			(at 4.6 -5.3 0)
+			(at 12.6 3.6 0)
 			(layer "F.SilkS")
 			(uuid "a3231b78-2692-42c6-9902-189bc98248e8")
 			(effects
@@ -2187,7 +2187,7 @@
 		(uuid "77233839-d77d-4a6b-8bfc-eba787a85a56")
 		(at 49.3 43.575)
 		(property "Reference" "F2"
-			(at 0 -0.75 0)
+			(at -3.3 3.625 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6646fa44-bcec-4b28-9469-e45a079ec4ed")
