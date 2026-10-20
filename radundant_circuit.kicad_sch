@@ -2105,7 +2105,7 @@
 				)
 			)
 		)
-		(property "Value" "IN1"
+		(property "Value" "OUT"
 			(at 172.085 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
