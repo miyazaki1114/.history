@@ -325,7 +325,7 @@
 	(footprint "IMRC_footprint:FUSE_SOCKET"
 		(layer "F.Cu")
 		(uuid "08db1c9d-574a-45a3-bdde-9a8f14ebfb9e")
-		(at 65.8 31.575)
+		(at 65.3 27.075)
 		(property "Reference" "F1"
 			(at 0 -0.75 0)
 			(unlocked yes)
@@ -1951,7 +1951,7 @@
 	(footprint "IMRC_footprint:FUSE_SOCKET"
 		(layer "F.Cu")
 		(uuid "77233839-d77d-4a6b-8bfc-eba787a85a56")
-		(at 66.3 49.075)
+		(at 65.8 54.075)
 		(property "Reference" "F2"
 			(at 0 -0.75 0)
 			(unlocked yes)
@@ -2715,7 +2715,7 @@
 	(footprint "Package_TO_SOT_SMD:TO-263-2"
 		(layer "F.Cu")
 		(uuid "a90df95a-045a-424e-8689-a5d4d2dc76f5")
-		(at 89.925 43.725)
+		(at 81.65 44.04)
 		(descr "TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
 		(tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
 		(property "Reference" "D1"
