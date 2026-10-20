@@ -94,7 +94,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D5"
-			(at 0 -1.7 0)
+			(at -2.8 0 0)
 			(layer "F.SilkS")
 			(uuid "2e904e31-8def-4abf-b7e0-b9db0682c2aa")
 			(effects
