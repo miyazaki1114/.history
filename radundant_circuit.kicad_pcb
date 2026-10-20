@@ -1903,7 +1903,7 @@
 	(footprint "Diode_SMD:D_SMB"
 		(layer "F.Cu")
 		(uuid "762843b1-7f74-455f-b72a-1e95d3aae2b8")
-		(at 116.5 76)
+		(at 97.5 64.5)
 		(descr "Diode SMB (DO-214AA)")
 		(tags "Diode SMB (DO-214AA)")
 		(property "Reference" "D4"
@@ -1918,7 +1918,7 @@
 			)
 		)
 		(property "Value" "SMBJ26A"
-			(at 52.375 -43.025 0)
+			(at -0.5 3.5 0)
 			(layer "F.Fab")
 			(uuid "8a5b2db4-ae41-4540-b3c6-c039a3fddc7f")
 			(effects
