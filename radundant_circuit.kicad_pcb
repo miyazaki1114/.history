@@ -1107,7 +1107,7 @@
 		(property "Reference" "C3"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
-			(uuid "75ee652e-8508-44a5-aa28-0a9938d2f1a4")
+			(uuid "a3296d56-f216-4967-9329-164dbe6ec186")
 			(effects
 				(font
 					(size 1 1)
@@ -1118,7 +1118,7 @@
 		(property "Value" "0.1u"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "2f121c30-7598-4ca4-b8d4-2c8a91829b8e")
+			(uuid "64af76c5-f81a-4bec-a7d1-738cea5ffb05")
 			(effects
 				(font
 					(size 1 1)
@@ -1130,7 +1130,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ca397b04-9908-49e2-8e35-b1a79dd0f3bf")
+			(uuid "a865b74c-463b-4034-8db1-d2d0c9a16f92")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1141,7 +1141,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57643d6d-2bb3-417d-b1f2-532e720d9ee3")
+			(uuid "76b48267-6701-45de-8e04-6a376a41c450")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,7 +2479,7 @@
 		(property "Reference" "C2"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
-			(uuid "db38cdbe-108f-4938-b1bc-1446521d2aad")
+			(uuid "223da613-3b06-4572-bf9b-4b7f08bb6d75")
 			(effects
 				(font
 					(size 1 1)
@@ -2490,7 +2490,7 @@
 		(property "Value" "1u"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "3bc152c1-68b4-4cf7-b0b4-fdab0ebfeabf")
+			(uuid "db2b3d9a-8fed-4915-8df7-d4ce34aeeb9c")
 			(effects
 				(font
 					(size 1 1)
@@ -2502,7 +2502,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "23db7f2b-01f2-4a8d-9172-5b909390d432")
+			(uuid "358b730d-5658-4d79-b649-221f7513c0a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2513,7 +2513,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "488160f4-c8c8-4627-8f92-ce00e7715221")
+			(uuid "1f167180-7e60-4b65-95f0-1d598c8587d0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2947,7 +2947,7 @@
 	(footprint "Package_TO_SOT_SMD:TO-263-2"
 		(layer "F.Cu")
 		(uuid "a90df95a-045a-424e-8689-a5d4d2dc76f5")
-		(at 70 40)
+		(at 66.575 41.775)
 		(descr "TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/")
 		(tags "D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404")
 		(property "Reference" "D1"
