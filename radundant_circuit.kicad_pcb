@@ -6996,9 +6996,9 @@
 		(end 65.8 50.8)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
-		(fill no)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "50f811a4-d392-403e-b3c5-f7ad045a99c9")
 	)
