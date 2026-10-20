@@ -1616,7 +1616,7 @@
 		(descr "AMASS female XT60, through hole, vertical, https://www.tme.eu/Document/2d152ced3b7a446066e6c419d84bb460/XT60%20SPEC.pdf")
 		(tags "XT60 female vertical")
 		(property "Reference" "J1"
-			(at 3.6 -5.3 0)
+			(at 12.8 -3.6 0)
 			(layer "F.SilkS")
 			(uuid "5690207e-d038-4b68-b7b6-3bb5b461c3c8")
 			(effects
