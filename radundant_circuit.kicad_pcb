@@ -866,7 +866,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3e752d7c-42f6-45a5-8cbe-0953041df330")
-		(at 48.5 30.5)
+		(at 48.5225 30.5)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D2"
@@ -1375,7 +1375,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5ba6e16d-cd81-47e2-987a-7db9ad7af795")
-		(at 49.125 56.5)
+		(at 48.5225 56.5)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D3"
@@ -2315,7 +2315,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "831a56d0-55ef-4669-82e2-7833236fb12d")
-		(at 49.1025 55)
+		(at 48.5 55)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
@@ -3267,13 +3267,13 @@
 	(footprint "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
 		(layer "F.Cu")
 		(uuid "d56c3a64-c2bc-4fc6-a113-102c6168d5fb")
-		(at 84.02222 34)
+		(at 82.02222 34)
 		(descr "CP, Radial series, Radial, pin pitch=7.50mm, diameter=18mm, height=35mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 7.50mm diameter 18mm height 35mm Electrolytic Capacitor")
 		(property "Reference" "C1"
 			(at 3.75 -10.25 0)
 			(layer "F.SilkS")
-			(uuid "fb7d1db5-56db-472a-b02c-9c2a347fe4e7")
+			(uuid "63ad8404-6713-481f-a620-988448839a07")
 			(effects
 				(font
 					(size 1 1)
@@ -3284,7 +3284,7 @@
 		(property "Value" "4700uF"
 			(at 3.75 10.25 0)
 			(layer "F.Fab")
-			(uuid "0edd3ad2-2994-41aa-9aa7-f8deaf53c332")
+			(uuid "76b35b0c-185d-4360-8adf-97aaeca10384")
 			(effects
 				(font
 					(size 1 1)
@@ -3296,7 +3296,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f9231ec5-01cf-4890-b597-86fb4534b87e")
+			(uuid "64480e08-a4f7-4921-aef6-b773b8cd52b6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,7 +3307,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1c1e2136-65e9-4ec4-a1a6-b3268c8b8241")
+			(uuid "593555df-1c33-4a8c-a244-9646249d4328")
 			(effects
 				(font
 					(size 1.27 1.27)
