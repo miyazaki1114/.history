@@ -969,84 +969,6 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 133.35 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7948ab5b-b4d3-4d46-9a6a-ef08d0db16a6")
-		(property "Reference" "#PWR_06"
-			(at 133.35 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IN1"
-			(at 133.35 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 133.35 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7bf80875-859d-4ca6-a338-6e424d7cc95e")
-		)
-		(instances
-			(project "radundant_circuit"
-				(path "/2a60c1bb-a3bb-41a5-8345-be72c93980cb"
-					(reference "#PWR_06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
 		(at 107.95 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -1203,7 +1125,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 129.54 34.29 0)
+		(at 133.35 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1214,7 +1136,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2b15dc7-db11-4973-85bd-1b86eca61155")
 		(property "Reference" "#PWR_05"
-			(at 129.54 38.1 0)
+			(at 133.35 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1225,7 +1147,7 @@
 			)
 		)
 		(property "Value" "IN2"
-			(at 129.54 29.21 0)
+			(at 133.35 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1235,7 +1157,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 34.29 0)
+			(at 133.35 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1246,7 +1168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 34.29 0)
+			(at 133.35 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1257,7 +1179,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 129.54 34.29 0)
+			(at 133.35 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
