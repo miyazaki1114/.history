@@ -962,8 +962,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at -16.51 -6.35 0)
+			(property "Value" "RBQ30NS65ATL"
+				(at 0.254 -8.636 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
