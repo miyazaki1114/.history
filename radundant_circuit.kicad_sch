@@ -748,7 +748,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "IN2"
 			(at 120.015 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1301,7 +1301,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "IN1"
 			(at 94.615 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
