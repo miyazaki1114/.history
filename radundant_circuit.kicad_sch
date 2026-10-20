@@ -1172,22 +1172,28 @@
 		)
 	)
 	(junction
+		(at 142.24 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c8ecd73-15d5-4490-848e-d1be72b785c4")
+	)
+	(junction
 		(at 177.8 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "633c0db2-6d81-42db-809b-f99d77534b5a")
 	)
 	(junction
-		(at 142.24 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1f8d0a0-6e2b-4f2e-ae23-cbe58bfdc5bf")
-	)
-	(junction
 		(at 167.64 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1078fc7-230b-4998-a434-8c3be1c8e87a")
+	)
+	(junction
+		(at 142.24 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf40eabf-6148-499a-8387-935d12911692")
 	)
 	(junction
 		(at 167.64 64.77)
@@ -1263,13 +1269,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 44.45) (xy 142.24 43.18)
+			(xy 142.24 72.39) (xy 147.32 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a2493e9-076b-46f2-8c34-4b018204cec7")
+		(uuid "148482f9-26c5-4e53-9915-1bdd24c04feb")
 	)
 	(wire
 		(pts
@@ -1283,7 +1289,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 44.45) (xy 142.24 44.45)
+			(xy 147.32 48.26) (xy 142.24 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1300,6 +1306,16 @@
 			(type default)
 		)
 		(uuid "51d1ffb7-22bb-4bde-b9f7-7b0612c31242")
+	)
+	(wire
+		(pts
+			(xy 142.24 43.18) (xy 142.24 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "557ab549-507a-49ac-a05a-8638e8d55675")
 	)
 	(wire
 		(pts
@@ -1383,6 +1399,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 48.26) (xy 147.32 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef8441b-b5ea-48c9-9e25-0d8be3c4f66b")
+	)
+	(wire
+		(pts
 			(xy 132.08 48.26) (xy 129.54 48.26)
 		)
 		(stroke
@@ -1400,6 +1426,16 @@
 			(type default)
 		)
 		(uuid "998e5d1c-c32b-4a17-af0e-58bf82669c66")
+	)
+	(wire
+		(pts
+			(xy 147.32 72.39) (xy 147.32 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a218aaf4-c190-4c08-85cc-ce2172f84c5f")
 	)
 	(wire
 		(pts
@@ -1430,16 +1466,6 @@
 			(type default)
 		)
 		(uuid "de010dc6-a900-4516-83e2-95bc2ce1ce8f")
-	)
-	(wire
-		(pts
-			(xy 142.24 48.26) (xy 142.24 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eae7ffff-0c3d-423d-8473-79a412e8cc08")
 	)
 	(symbol
 		(lib_id "power:+24V")
@@ -2315,6 +2341,85 @@
 			(project "radundant_circuit"
 				(path "/2a60c1bb-a3bb-41a5-8345-be72c93980cb"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 147.32 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4f4b3f2-e629-48cb-a59a-eae19f691fcc")
+		(property "Reference" "TP2"
+			(at 149.86 64.0079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 149.86 66.5479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 147.32 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89ae9b18-c924-4ce6-abea-4470c714efc9")
+		)
+		(instances
+			(project "radundant_circuit"
+				(path "/2a60c1bb-a3bb-41a5-8345-be72c93980cb"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
