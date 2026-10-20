@@ -2953,7 +2953,7 @@
 		(property "Reference" "D1"
 			(at 0 -6.65 0)
 			(layer "F.SilkS")
-			(uuid "1720ed67-5fc9-4102-9d11-45cb1ff2371d")
+			(uuid "47d24387-7921-4fcb-aeed-57efeca1d24c")
 			(effects
 				(font
 					(size 1 1)
@@ -2964,7 +2964,7 @@
 		(property "Value" "RBQ30NS65ATL"
 			(at 0 6.65 0)
 			(layer "F.Fab")
-			(uuid "c75b87e4-87ae-4452-8bea-755426eb7a48")
+			(uuid "452f2008-88ec-4a1d-9cb0-f17a9c55d05c")
 			(effects
 				(font
 					(size 1 1)
@@ -2976,7 +2976,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1689f7f8-3240-42e4-8158-56772c89252d")
+			(uuid "416753e1-4fc3-4bf5-8e95-33c5da153ec7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2987,7 +2987,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "60e0ccfc-2aaa-4bb1-9d55-a5c1a92ca61d")
+			(uuid "92c8b4d7-2e56-4f83-a040-6254030df753")
 			(effects
 				(font
 					(size 1.27 1.27)
