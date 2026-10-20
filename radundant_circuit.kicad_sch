@@ -2968,7 +2968,7 @@
 	)
 	(symbol
 		(lib_id "Diode:5KPxxA")
-		(at 233.68 85.09 270)
+		(at 215.9 85.09 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2979,7 +2979,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9b3c8e5-3650-49b3-b294-d561239bb9d2")
 		(property "Reference" "D4"
-			(at 236.22 83.8199 90)
+			(at 218.44 83.8199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2990,7 +2990,7 @@
 			)
 		)
 		(property "Value" "SMBJ26A"
-			(at 236.22 86.3599 90)
+			(at 218.44 86.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3001,7 +3001,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 228.6 85.09 0)
+			(at 210.82 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3012,7 +3012,7 @@
 			)
 		)
 		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/5kp65.pdf"
-			(at 233.68 83.82 0)
+			(at 215.9 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3023,7 +3023,7 @@
 			)
 		)
 		(property "Description" "5000W unidirectional Transient Voltage Suppressor, P-600"
-			(at 233.68 85.09 0)
+			(at 215.9 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
