@@ -698,6 +698,26 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 39.37) (xy 133.35 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9906dc09-a295-4c68-9e74-4ffd5445460a")
+	)
+	(wire
+		(pts
+			(xy 124.46 39.37) (xy 133.35 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3a97abe-cb61-45ba-821e-24774ee08afa")
+	)
+	(wire
+		(pts
 			(xy 107.95 39.37) (xy 107.95 35.56)
 		)
 		(stroke
@@ -705,6 +725,86 @@
 			(type default)
 		)
 		(uuid "eae7ffff-0c3d-423d-8473-79a412e8cc08")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 119.38 41.91 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61d61ad4-2fe3-4c2a-80ca-00ce80bcd45f")
+		(property "Reference" "J2"
+			(at 120.015 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 120.015 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 119.38 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4449d5e-5086-4cc0-926d-39b8f8e2516d")
+		)
+		(pin "2"
+			(uuid "fb48f08e-d6e7-4bfc-9bb8-39b0717f7238")
+		)
+		(instances
+			(project "radundant_circuit"
+				(path "/2a60c1bb-a3bb-41a5-8345-be72c93980cb"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "IMRC_symbol:RBQ30NS65ATL")
@@ -869,6 +969,84 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
+		(at 133.35 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7948ab5b-b4d3-4d46-9a6a-ef08d0db16a6")
+		(property "Reference" "#PWR_06"
+			(at 133.35 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN1"
+			(at 133.35 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 133.35 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bf80875-859d-4ca6-a338-6e424d7cc95e")
+		)
+		(instances
+			(project "radundant_circuit"
+				(path "/2a60c1bb-a3bb-41a5-8345-be72c93980cb"
+					(reference "#PWR_06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
 		(at 107.95 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -1018,6 +1196,84 @@
 			(project "radundant_circuit"
 				(path "/2a60c1bb-a3bb-41a5-8345-be72c93980cb"
 					(reference "#PWR_03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 129.54 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2b15dc7-db11-4973-85bd-1b86eca61155")
+		(property "Reference" "#PWR_05"
+			(at 129.54 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN2"
+			(at 129.54 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 129.54 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d004f179-6c44-4ed3-9f71-8b9f7c440e08")
+		)
+		(instances
+			(project "radundant_circuit"
+				(path "/2a60c1bb-a3bb-41a5-8345-be72c93980cb"
+					(reference "#PWR_05")
 					(unit 1)
 				)
 			)
