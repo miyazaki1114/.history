@@ -1,3 +1,9 @@
-# KiCad local history exclusions. Edit to add your own rules.
-fp-info-cache
+﻿# KiCad local history and generated files
+.history/
+_restore_temp/
 *-backups/
+*.kicad_prl
+*.lck
+~$*
+fp-info-cache
+desktop.ini
